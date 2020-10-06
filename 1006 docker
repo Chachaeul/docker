@@ -1,0 +1,17 @@
+1006 docker
+
+리눅스 마스터 터미널 >
+curl -fsSl https://get.docker.com/ | sudo su
+docker version
+
+윈도우 > 
+docker.com > 맨 아래 docs 찾아서 > downloads and install > windows (https://docs.docker.com/docker-for-windows/install/ )
+> Download from Docker Hub
+
+OR
+
+https://github.com/docker/toolbox/releases > DockerToolbox-19.03.1.exe 다운
+
+
+리눅스 다 끄고
+제어판 > 프로그램 제거 
