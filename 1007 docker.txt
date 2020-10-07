@@ -1,11 +1,25 @@
 1. 설치
 	(1) 리눅스
-		curl -fsSl http://get.docker.com/ | sudo su
+		curl -fsSL http://get.docker.com/|sudo su
+	
 	(2) 윈도우
 		https://docs.docker.com/docker-for-windows/install/
-			- Docker for Windows : windows10 , 64bit, vmware와 병행 사용 불가
-			- Docker Tool Box : windows 
+			- Docker for Windows : windows 10, 64bit, vmware와 병행 사용 불가
+			- Docker Tool Box : window 7, windows 10 home, vmware와 병행 사용
+			
+		제어판 > 프로그램 제거
+			> virtual box 제거
+			
+		https://github.com/docker/toolbox/releases
+			> DockerToolbox-19.03.1.exe 다운로드
 
+		toolbox 설치
+			> Docker Compose for Windows
+			> VirtualBox
+			> Kitematic for Windows (Alpha)
+			> Git >> 깃은 설치 안되어있는 경우만 체크
+			
+			
 2. 특징
 	- Pycon 2013 solomon kykes - 'The Future of Linux Container'
 	- Go 언어로 개발
@@ -13,10 +27,10 @@
 	- Community Edition & Enterprise Edition
 	- Linux Base
 	- 64bit OS only
-
+	
 3. 사용법
 
-Docker Hub 들어가서 회원가입 해두기 	// 네이버, chacha
+Docker Hub 들어가서 회원가입 해두기
 	
 	Docker 열기
 	$ docker version
@@ -165,7 +179,7 @@ Docker Hub 들어가서 회원가입 해두기 	// 네이버, chacha
 			
 		$ docker container ps
 		
-		$ docker attach <위에 뜬 CONTAINER ID>
+		$ docker attach e7
 			> docker attach <CONTAINER ID>
 			> CONTAINER ID : 앞에 두개만 쳐도 된다 (겹치는 거 없으면)
 			
@@ -195,10 +209,51 @@ Docker Hub 들어가서 회원가입 해두기 	// 네이버, chacha
 		$ docker ps -q
 			// 현재 실행중인 프로세스의 ID만 출력
 		
-		$ docker stop `docker ps -q` 	: 따옴표가 아니라 ` 
+		$ docker stop `docker ps -q`	: 따옴표가 아니라 `
 		
 		$ docker container ps
 			// 실행중인거 없다고 뜬다
 			
 	(3) docker start
-		$ docker start `docker ps -aq` 	: 따옴표가 아니라 ` 
+		$ docker start `docker ps -aq`
+		
+		
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+			
+			
+		
+			
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
